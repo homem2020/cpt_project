@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sports Quiz</title>
+    <link rel="stylesheet" type="text/css" href="trivia.css">
+   
+    
+     <script src="trivia.js"></script>
+    </head>
+
+    <body onLoad="main()">
+  
+<br>
+    <div>
+        <FORM name="view" id="myForm">  
+	Question: &nbsp;<input type="text" name="qnum" size="2" >&nbsp;<input type="button" name="go" value="Next Question" onClick=main()>
+    <br>
+    <br>
+    Answer:&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="2">&nbsp;<input type="button" value="Submit Answer" onclick=submitAnswer()>
+	<br>
+    <br>
+    Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "qscore" name="qscore" size="2">
+	<br>
+	<br>
+    Redo: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Redo Quiz" onclick=redo()>
+    <br>
+    <br>
+	<TEXTAREA COLS=31 ROWS=9 id="question"  wrap="virtual"></TEXTAREA> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="cr.jpg" id="image_1" height="200px" width="300px">
+         <img src="logo.jpg" id="image_2" height="200px" width="200px">
+             <br>
+         <img src="correct.jpg" id="image_3" height="200px" width="200px">
+         <img src="wrong.jpg" id="image_4" height="300px" width="200px">   
+</FORM>
+        
+       
+       
+        
+        
+     </div>
+</body>
+</html>
